@@ -7,8 +7,9 @@ kubectl apply -f https://raw.githubusercontent.com/scylhy/ingress/master/svc.yam
 
 kubectl apply -f https://raw.githubusercontent.com/scylhy/ingress/master/backends.yaml
 kubectl apply -f https://raw.githubusercontent.com/scylhy/ingress/master/rule.yaml
-
-#test
+```
+- test
+```bash
 [root@cce-demo1522483688765-00274 tmp]# kubectl get svc -ningress-nginx
 NAME            TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
 ingress-nginx   NodePort   10.247.160.254   <none>        80:30674/TCP,443:30130/TCP   3h
